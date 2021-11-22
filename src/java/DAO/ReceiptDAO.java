@@ -4,6 +4,7 @@
  */
 package DAO;
 
+import Model.Customer;
 import Model.Receipt;
 import java.util.ArrayList;
 import java.util.Date;
@@ -21,7 +22,7 @@ public class ReceiptDAO {
     public void saveReceipt(Receipt receipt) {
     }
     
-    public ArrayList<Receipt> getReceiptOfCustomer(Date startDate, Date endDate) {
+    public ArrayList<Receipt> getReceiptOfCustomer(Customer customer, Date startDate, Date endDate) {
         return null;
     }
 }
