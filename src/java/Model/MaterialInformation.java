@@ -4,10 +4,37 @@
  */
 package Model;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Hoang Loc
  */
-public class MaterialInformation {
-    
+public class MaterialInformation implements Serializable {
+    private int id;
+    private Material material;
+
+    public MaterialInformation() {
+    }
+
+    public MaterialInformation(int id, Material material) {
+        this.id = id;
+        this.material = material;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Material getMaterial() {
+        return material;
+    }
+
+    public void setMaterial(Material material) {
+        this.material = material;
+    }
 }
