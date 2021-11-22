@@ -4,10 +4,21 @@
  */
 package DAO;
 
+import Model.Customer;
+import java.util.ArrayList;
+import java.util.Date;
+
 /**
  *
  * @author Hoang Loc
  */
 public class CustomerStatDAO {
+
+    public CustomerStatDAO() {
+        super();
+    }
     
+    public ArrayList<Customer> getCustomerStat(Date startDate, Date endDate) {
+        return null;
+    }
 }

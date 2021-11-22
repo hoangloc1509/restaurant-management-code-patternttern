@@ -4,10 +4,27 @@
  */
 package DAO;
 
+import Model.MakingReservation;
+
 /**
  *
  * @author Hoang Loc
  */
-public class MakingReservationDAO {
+public class MakingReservationDAO extends DAO {
+
+    public MakingReservationDAO() {
+        super();
+    }
     
+    public boolean bookingTable(MakingReservation makingReservation) {
+        return false;
+    }
+    
+    public boolean addOrdering(MakingReservation makingReservation) {
+        return false;
+    }
+    
+    public double getTotal(MakingReservation makingReservation) {       
+        return 0;       
+    }
 }

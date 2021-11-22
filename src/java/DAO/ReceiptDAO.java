@@ -4,10 +4,24 @@
  */
 package DAO;
 
+import Model.Receipt;
+import java.util.ArrayList;
+import java.util.Date;
+
 /**
  *
  * @author Hoang Loc
  */
 public class ReceiptDAO {
+
+    public ReceiptDAO() {
+        super();
+    }
     
+    public void saveReceipt(Receipt receipt) {
+    }
+    
+    public ArrayList<Receipt> getReceiptOfCustomer(Date startDate, Date endDate) {
+        return null;
+    }
 }

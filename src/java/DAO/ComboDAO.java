@@ -4,10 +4,20 @@
  */
 package DAO;
 
+import Model.Combo;
+import java.util.ArrayList;
+
 /**
  *
  * @author Hoang Loc
  */
-public class ComboDAO {
+public class ComboDAO extends DAO {
+
+    public ComboDAO() {
+        super();
+    }
     
+    public ArrayList<Combo> getListCombo() {
+        return null;
+    }
 }

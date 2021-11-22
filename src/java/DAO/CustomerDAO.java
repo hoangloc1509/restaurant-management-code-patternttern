@@ -4,10 +4,19 @@
  */
 package DAO;
 
+import Model.Customer;
+
 /**
  *
  * @author Hoang Loc
  */
-public class CustomerDAO {
+public class CustomerDAO extends DAO {
+
+    public CustomerDAO() {
+        super();
+    }
     
+    public boolean checkLogin(Customer customer) {        
+        return false;        
+    }
 }

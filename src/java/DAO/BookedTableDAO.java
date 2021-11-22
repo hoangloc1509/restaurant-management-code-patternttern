@@ -4,10 +4,20 @@
  */
 package DAO;
 
+import Model.BookedTable;
+import java.util.ArrayList;
+
 /**
  *
  * @author Hoang Loc
  */
 public class BookedTableDAO {
+
+    public BookedTableDAO() {
+        super();
+    }
     
+    public ArrayList<BookedTable> searchTable(String keyword) {
+        return null;
+    }
 }

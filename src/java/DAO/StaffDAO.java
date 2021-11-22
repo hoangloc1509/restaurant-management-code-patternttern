@@ -4,10 +4,19 @@
  */
 package DAO;
 
+import Model.Staff;
+
 /**
  *
  * @author Hoang Loc
  */
 public class StaffDAO {
+
+    public StaffDAO() {
+        super();
+    }
     
+    public boolean checkLogin(Staff staff) {        
+        return false;        
+    }
 }
