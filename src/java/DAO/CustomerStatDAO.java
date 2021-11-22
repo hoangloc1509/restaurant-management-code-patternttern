@@ -4,7 +4,7 @@
  */
 package DAO;
 
-import Model.Customer;
+import Model.CustomerStat;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -18,7 +18,7 @@ public class CustomerStatDAO {
         super();
     }
     
-    public ArrayList<Customer> getCustomerStat(Date startDate, Date endDate) {
+    public ArrayList<CustomerStat> getCustomerStat(Date startDate, Date endDate) {
         return null;
     }
 }
