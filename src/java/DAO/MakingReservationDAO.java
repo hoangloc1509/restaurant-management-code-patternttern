@@ -5,6 +5,9 @@
 package DAO;
 
 import Model.MakingReservation;
+import Model.OrderedCombo;
+import Model.OrderedDish;
+import java.util.ArrayList;
 
 /**
  *
@@ -24,7 +27,11 @@ public class MakingReservationDAO extends DAO {
         return false;
     }
     
-    public double getTotal(MakingReservation makingReservation) {       
-        return 0;       
+    public ArrayList<OrderedDish> getListOrderedDish(MakingReservation makingReservation) {       
+        return null;       
+    }
+    
+    public ArrayList<OrderedCombo> getListOrderedCombo(MakingReservation makingReservation) {
+        return null;
     }
 }
